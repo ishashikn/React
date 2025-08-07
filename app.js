@@ -21,32 +21,29 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(parent);
 */
 
+import React from "react";
+import ReactDOM from "react-dom/client";
 
-
-const parent = React.createElement(
+/*
+const heading = React.createElement(
     "div",
-    {id:"parent"},
+    {id:"heading"},
     [
-        React.createElement(
-        "div",
-        {id:"child"},
-        
-            React.createElement("h1",{},"i am h1"),
-            React.createElement("h2",{},"i am h2"),
-        ),
+        React.createElement("h1",{id:"h1Tag"},"Hello H1 tag"),
+        React.createElement("h2",{id:"h2Tag"},"Hello H2 tag")
 
-        React.createElement(
-            "div",
-            {id:"child2"},
-            [
-            React.createElement("h1",{},"i am h1 tag"),
-            React.createElement("h2",{},"i am h2 tag"),
-            ]
-        ),
-        
     ]
 );
+*/
 
-console.log(parent);
+
+const heading = (
+    <div id="container" className="container">
+    <h1 id="heading" className = "heading"> Hello JSX Welcome</h1>
+    <h2 id="heading2" className = "heading2"> Hello JSX Welcome</h2>
+    </div>
+)
+
+console.log(heading);
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(parent);
+root.render(heading);

@@ -1,0 +1,38 @@
+{
+  "name": "namaste_react",
+  "version": "1.0.0",
+  "description": "espisode 2",
+  "keywords": [
+    "react",
+    "shashi",
+    "i",
+    "am",
+    "god"
+  ],
+  "homepage": "https://github.com/ishashikn/React#readme",
+  "bugs": {
+    "url": "https://github.com/ishashikn/React/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishashikn/React.git"
+  },
+  "license": "ISC",
+  "author": "shashi",
+  "type": "commonjs",
+  "scripts": {
+    "start":"parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "browerslist": [
+    "last 2 versions"
+  ]
+}
