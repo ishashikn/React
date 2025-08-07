@@ -75,7 +75,7 @@ const Tail = () =>(
     <div>
         <Heading/>
         <h2>{100+100}</h2>
-        <h2>{"10"+" Hello"}</h2>
+        <h3>I am Shashi</h3>
         <h1>Hello tailleee</h1>
         <p>Welcome to show Bother</p>
     </div>
