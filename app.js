@@ -21,8 +21,6 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(parent);
 */
 
-import React from "react";
-import ReactDOM from "react-dom/client";
 
 /*
 const heading = React.createElement(
@@ -36,7 +34,7 @@ const heading = React.createElement(
 );
 */
 
-
+/*
 const heading = (
     <div id="container" className="container">
     <h1 id="heading" className = "heading"> Hello JSX Welcome</h1>
@@ -47,3 +45,41 @@ const heading = (
 console.log(heading);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(heading);
+
+*/
+
+
+
+import React from "react";
+import ReactDOM from "react-dom/client";
+
+
+
+//react component
+const title = (
+    <h1>hello title</h1>
+);
+
+// functional components
+
+const Heading = () =>(
+    <div>
+        {title}
+        <h1>hello heading </h1>
+        
+    </div>
+    
+);
+
+const Tail = () =>(
+    <div>
+        <Heading/>
+        <h2>{100+100}</h2>
+        <h2>{"10"+" Hello"}</h2>
+        <h1>Hello tailleee</h1>
+        <p>Welcome to show Bother</p>
+    </div>
+);
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<Tail/>);
